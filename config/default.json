@@ -1,0 +1,11 @@
+{
+  "port": 9000,
+  "protocol": "http",
+  "tokenMgmtService": {
+    "protocol": "http",
+    "host": "127.0.0.1",
+    "port": 9001,
+    "generateToken": "/api/token/v1/generate/:userId"
+  }
+  
+}
